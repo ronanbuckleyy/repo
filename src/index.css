@@ -1,0 +1,36 @@
+html {
+    margin: 0;
+    background: url("./images/background.svg");
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/** Typography */
+h1, h2, h3, h4, h5, h6, p, a, button, input {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+h1 {
+    font-size: 4rem;
+    font-weight: 500;
+}
+h2 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+h3 {
+    font-size: 3rem;
+    font-weight: 300;
+}
+p, a, button, input {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/** Shared styles */
+.page {
+    width: 960px;
+    max-width: 95%;
+    margin: 10vw auto;
+}
